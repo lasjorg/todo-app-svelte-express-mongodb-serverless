@@ -8,8 +8,8 @@ const getTodos = async () => {
 
 const addTodo = async (data) => {
   await fetch(BASE_URL, {
-    method: 'POST', // *GET, POST, PUT, DELETE, etc.
-    mode: 'cors', // no-cors, *cors, same-origin
+    method: 'POST',
+    mode: 'cors',
     headers: {
       'Content-Type': 'application/json',
     },
@@ -20,8 +20,8 @@ const addTodo = async (data) => {
 
 const updateTodo = async (data) => {
   await fetch(BASE_URL, {
-    method: 'PATCH', // *GET, POST, PUT, DELETE, etc.
-    mode: 'cors', // no-cors, *cors, same-origin
+    method: 'PATCH',
+    mode: 'cors',
     headers: {
       'Content-Type': 'application/json',
     },

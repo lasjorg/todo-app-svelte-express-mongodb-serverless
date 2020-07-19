@@ -1,7 +1,6 @@
 <script>
   import { createEventDispatcher } from 'svelte';
   let todoText;
-  // export let handleAddTodo;
 
   const dispatch = createEventDispatcher();
 
